@@ -5,4 +5,4 @@ RUN apt-get update
 RUN apt-get install node
 ADD ./index.js ./index.js
 
-CMD ["node"]  
+CMD ["node", "index.js"]  
