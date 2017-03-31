@@ -1,5 +1,5 @@
 const express = require('express');
-const hbar = require('express-handlebars');
+const exphbs = require('express-handlebars');
 const app = express();
 
 app.engine('handlebars', exphbs({defaultLayout: 'main'}));
