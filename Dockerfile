@@ -4,4 +4,6 @@ ENTRYPOINT []
 ADD ./index.js ./index.js
 ADD ./package.json ./package.json
 
-CMD ["node", "index.js"]  
+RUN npm install
+
+CMD ["npm", "start"]  
