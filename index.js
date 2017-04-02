@@ -11,7 +11,7 @@ app.use(function(req, res, next){
 });
 
 app.get('/', function(req, res){
-  res.send('Hello from docker!');
+  res.render('index');
 });
 
 app.listen('8080');
